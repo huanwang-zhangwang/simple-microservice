@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="product-service-biz" />
+        <module name="gateway-service" />
+        <module name="order-service-api" />
+        <module name="product-service-api" />
+        <module name="basic-common-core" />
+        <module name="order-service-biz" />
+        <module name="stock-service-api" />
+        <module name="eureka-service" />
+        <module name="stock-service-biz" />
+        <module name="portal-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="basic-common" target="1.8" />
+      <module name="basic-common-bom" target="1.5" />
+      <module name="basic-common-core" target="1.8" />
+      <module name="eureka-service" target="1.8" />
+      <module name="gateway-service" target="1.8" />
+      <module name="order-service" target="1.8" />
+      <module name="order-service-api" target="1.8" />
+      <module name="order-service-biz" target="1.8" />
+      <module name="portal-service" target="1.8" />
+      <module name="product-service" target="1.8" />
+      <module name="product-service-api" target="1.8" />
+      <module name="product-service-biz" target="1.8" />
+      <module name="simple-microservice" target="1.8" />
+      <module name="stock-service" target="1.8" />
+      <module name="stock-service-api" target="1.8" />
+      <module name="stock-service-biz" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

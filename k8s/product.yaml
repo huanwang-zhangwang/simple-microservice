@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment 
+metadata:
+  name: product
+  namespace: ms 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      project: ms
+      app: product
+  template:
+    metadata:
+      labels:
+        project: ms 
+        app: product
+    spec:
+      imagePullSecrets:
+      - name: registry-pull-secret
+      containers:
+      - name: product
+        image: 192.168.217.129/springcloud/product:2020-04-19-03-01-50
+        imagePullPolicy: Always
+        ports:
+          - protocol: TCP
+            containerPort: 8010 
+        resources:
+          requests:
+            cpu: 0.1
+            memory: 256Mi
+          limits:
+            cpu: 1
+            memory: 1Gi
+        readinessProbe:
+          tcpSocket:
+            port: 8010
+          initialDelaySeconds: 60
+          periodSeconds: 10
+        livenessProbe:
+          tcpSocket:
+            port: 8010
+          initialDelaySeconds: 60
+          periodSeconds: 10

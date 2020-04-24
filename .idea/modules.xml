@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/basic-common/basic-common.iml" filepath="$PROJECT_DIR$/basic-common/basic-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-common/basic-common-bom/basic-common-bom.iml" filepath="$PROJECT_DIR$/basic-common/basic-common-bom/basic-common-bom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-common/basic-common-core/basic-common-core.iml" filepath="$PROJECT_DIR$/basic-common/basic-common-core/basic-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/eureka-service/eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order-service-api/order-service-api.iml" filepath="$PROJECT_DIR$/order-service/order-service-api/order-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order-service-biz/order-service-biz.iml" filepath="$PROJECT_DIR$/order-service/order-service-biz/order-service-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/portal-service/portal-service.iml" filepath="$PROJECT_DIR$/portal-service/portal-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-service/product-service.iml" filepath="$PROJECT_DIR$/product-service/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-service/product-service-api/product-service-api.iml" filepath="$PROJECT_DIR$/product-service/product-service-api/product-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-service/product-service-biz/product-service-biz.iml" filepath="$PROJECT_DIR$/product-service/product-service-biz/product-service-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-microservice.iml" filepath="$PROJECT_DIR$/simple-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-service/stock-service.iml" filepath="$PROJECT_DIR$/stock-service/stock-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-service/stock-service-api/stock-service-api.iml" filepath="$PROJECT_DIR$/stock-service/stock-service-api/stock-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-service/stock-service-biz/stock-service-biz.iml" filepath="$PROJECT_DIR$/stock-service/stock-service-biz/stock-service-biz.iml" />
+    </modules>
+  </component>
+</project>
